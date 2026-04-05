@@ -26,16 +26,16 @@ class Computer{
 //        return a+b;
 //    }
 //}
-public class Hello {
-    public static void main(String[] args) {
-        // We need an object to use the class
-        Calculator calc = new Calculator();
-//        System.out.println(calc.add(2,3));
-
-
-        Computer c = new Computer();
-        String str = c.getMeAPen(11);
-        c.playMusic();
-        System.out.println(str);
-    }
-}
+//public class Hello {
+//    public static void main(String[] args) {
+//        // We need an object to use the class
+//        Calculator calc = new Calculator();
+////        System.out.println(calc.add(2,3));
+//
+//
+//        Computer c = new Computer();
+//        String str = c.getMeAPen(11);
+//        c.playMusic();
+//        System.out.println(str);
+//    }
+//}
