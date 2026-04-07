@@ -1,18 +1,18 @@
 package it.workStation;
 
 
-class Computer{
-    public void playMusic(){
-        System.out.println("Playing music......");
-    }
-
-    public String getMeAPen(int cost){
-        if (cost >= 10)
-            return "pen";
-
-        return "nothing";
-    }
-}
+//class Computer{
+//    public void playMusic(){
+//        System.out.println("Playing music......");
+//    }
+//
+//    public String getMeAPen(int cost){
+//        if (cost >= 10)
+//            return "pen";
+//
+//        return "nothing";
+//    }
+//}
 
 
 //class Calculator{

@@ -2,6 +2,7 @@ package it.workStation;
 
 
 class A{
+    protected int marks = 6;
     public A(){
         super();
         System.out.println("in Constructor A");
@@ -68,8 +69,11 @@ public class PracStatic {
 
 //        B obj = new B();
 //        B obj2 = new B(10);
-        B obj3 = new B(11);
+//        B obj3 = new B(11);
 
+        A obj4 = new A();
+        obj4.marks = 11;
+        System.out.println(obj4.marks);
 
     }
 }
