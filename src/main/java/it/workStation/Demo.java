@@ -19,33 +19,33 @@ class D extends C{
 }
 
 
-class Launch {
-    public void abc(){
-        A mojo = new A();
-        System.out.println(mojo.marks);
-    }
-}
+//class Launch {
+//    public void abc(){
+//        A mojo = new A();
+//        System.out.println(mojo.marks);
+//    }
+//}
+//
+//class E extends A {
+//    public void abc(){
+//
+//    }
+//}
 
-class E extends A {
-    public void abc(){
-
-    }
-}
-
-public class Demo {
-    public static void main(String[] args) {
-        C obj = new C();
-        obj.show();
-        obj.config();
-
-        A obj2 = new A();
-        obj2.marks = 12;
-
-
-        ArrayList<String> list1 = new ArrayList<>();
-        list1.add("class D object");
-        System.out.println(list1);
-
-
-    }
-}
+//public class Demo {
+//    public static void main(String[] args) {
+//        C obj = new C();
+//        obj.show();
+//        obj.config();
+//
+//        A obj2 = new A();
+//        obj2.marks = 12;
+//
+//
+//        ArrayList<String> list1 = new ArrayList<>();
+//        list1.add("class D object");
+//        System.out.println(list1);
+//
+//
+//    }
+//}
