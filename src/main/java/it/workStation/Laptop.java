@@ -1,4 +1,4 @@
-package it.workStation;
+//package it.workStation;
 
 public class Laptop {
     String model;
