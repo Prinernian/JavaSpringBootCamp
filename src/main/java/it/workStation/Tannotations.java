@@ -13,7 +13,7 @@ package it.workStation;
 
 @FunctionalInterface
 interface A{
-    void show(int i);
+    int show(int i, int j);
 }
 
 
@@ -76,10 +76,15 @@ public class Tannotations {
 
 
         //OR INSTEAD OF ABOVE YOU CAN JUST WRITE
-        A object22 = i -> System.out.println("Hi I am here!" + i);
-        object22.show(12);
+//        A object22 = i -> System.out.println("Hi I am here!" + i);
+//        object22.show(12);
 
 
+
+
+        A object = (int i, int j) -> i + j;
+        int sum = object.show(35, 70);
+        System.out.println(sum);
 
     }
 }
